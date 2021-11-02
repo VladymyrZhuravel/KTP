@@ -1,0 +1,23 @@
+def equation(a, b):
+    if a != 0:
+        x = (-b) / a
+        print('x = ' + str(round(x, 2)))
+    else:
+        if b == 0:
+            print('bezlich')
+        else:
+            print('nema')
+            
+
+def main():
+    print('Input your values:')
+    a = float(input('a = '))
+    b = float(input('b = '))
+    print('Answer:')
+    equation(a, b)
+    # stop program
+    input('')
+    
+    
+if __name__ == '__main__':
+    main()
